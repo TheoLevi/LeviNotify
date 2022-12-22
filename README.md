@@ -1,3 +1,6 @@
+# Preview :
+![image](https://media.discordapp.net/attachments/738159425721991250/1053070080197537792/image.png?width=1202&height=676)
+
 To display a notification you should call it like below:
 
 Go to qb-core/client/functions.lua and find QBCore.Functions.Notify and replace that with code 1
