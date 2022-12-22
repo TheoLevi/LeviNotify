@@ -1,5 +1,3 @@
-Hi, thank you for buying my script, I'm very grateful!
-
 To display a notification you should call it like below:
 
 <!-- Just Do This -->
@@ -7,7 +5,7 @@ To display a notification you should call it like below:
 
 <!-- Go to qb-core/client/functions.lua and find QBCore.Functions.Notify and replace that with code 1 -->
 
-Code 1
+```Code 1
 if QBCore.Config.leviNotify == true then
     function QBCore.Functions.Notify(text, textype, length)
         if type(text) == "table" then
@@ -47,7 +45,7 @@ else
             })
         end
     end
-end
+end```
 
 
 
@@ -71,11 +69,3 @@ TriggerClientEvent('leviNotify:Alert', source, "Title", "Message", Time, 'type')
 
 
 [Time] - 1000 = 1 second | 5000 = 5 seconds
-
-Types: 
-	- success (green)
-	- info (blue)
-	- warning (yellow)
-	- error (red)
-	- phone (orange)
-	- neutral (grey)
