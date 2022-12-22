@@ -1,0 +1,100 @@
+body {
+    margin-top: 25%;
+    font-family: "system-ui", monospace;
+    overflow: hidden;
+}
+
+.toast {
+    width: 5%;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #1e1e1e;
+    float: right;
+}
+
+.main {
+    margin: 5px 5px 5px 50px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 25px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+/* Success Notification*/
+
+.success-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: #040703ee;
+}
+
+.success {
+    background: linear-gradient(to right, #00c989e3, #00000000);
+    color: #f1eaea;
+    padding: 2px 2px 2px 2px;
+}
+
+
+/* Info Notification*/
+
+.info-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: #010305e8;
+}
+
+.info {
+    background: linear-gradient(to right, #46a8a0e3, #00000000);
+    color: #f1eaea;
+    padding: 2px 2px 2px 2px;
+}
+
+/* Warning Notification */
+
+.warning-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: #050402;
+}
+
+.warning {
+    background: linear-gradient(to right, #e2cc0be3, #00000000);
+    color: #f1eaea;
+    padding: 2px 2px 2px 2px;
+}
+
+/* Error Notification */
+
+
+.error-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #080203d8;
+}
+
+.error {
+    background: linear-gradient(to right, #c90700e3, #00000000);
+    color: #f1eaea;
+    padding: 2px 2px 2px 2px;
+}
+
+.neutral-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f11c";
+    color: #000000;
+}
+
+.neutral {
+    background: linear-gradient(to right, #5e5e5ee3, #00000000);
+    color: #f1eaea;
+    padding: 2px 2px 2px 2px;
+}
