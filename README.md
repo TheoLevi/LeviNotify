@@ -1,9 +1,6 @@
 To display a notification you should call it like below:
 
-<!-- Just Do This -->
-
-
-<!-- Go to qb-core/client/functions.lua and find QBCore.Functions.Notify and replace that with code 1 -->
+Go to qb-core/client/functions.lua and find QBCore.Functions.Notify and replace that with code 1
 
 ```Code 1
 if QBCore.Config.leviNotify == true then
@@ -45,27 +42,11 @@ else
             })
         end
     end
-end```
+end ```
 
 
 
  <!-- Next go to your qb-core config and add this  -->
 
  
-QBConfig.leviNotify = true
-
-
-
-<!-- For Custom Notification -->
-
-
-# Client side
-
-exports['leviNotify']:Alert("Title", "Message", Time, 'type')
-
-# Server side
-
-TriggerClientEvent('leviNotify:Alert', source, "Title", "Message", Time, 'type')
-
-
-[Time] - 1000 = 1 second | 5000 = 5 seconds
+```QBConfig.leviNotify = true```
