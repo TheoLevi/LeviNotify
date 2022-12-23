@@ -52,4 +52,4 @@ end ```
  <!-- Next go to your qb-core config and add this  -->
 
  
-```QBConfig.leviNotify = true```
+QBConfig.leviNotify = true
