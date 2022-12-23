@@ -3,7 +3,7 @@
 
 To display a notification you should call it like below:
 
-Go to qb-core/client/functions.lua and find QBCore.Functions.Notify and replace that with code 1
+Go to qb-core/client/functions.lua and find QBCore.Functions.Notify and replace that with this.
 
 ```Code 1
 if QBCore.Config.leviNotify == true then
