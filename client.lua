@@ -8,6 +8,8 @@ function Alert(title, message, time, type)
 	})
 end
 
+exports('Alert', Alert)
+
 RegisterNetEvent('leviNotify:Alert', function(title, message, time, type)
 	Alert(title, message, time, type)
 end)
